@@ -1,0 +1,58 @@
+.Link{
+    color:rgba(135, 135, 135, 0.829);
+    border-radius:12px;
+    padding:0.2em 0.5em;
+    height:60px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:4px;
+    cursor:pointer;
+    transition:width 100ms ease-in-out;
+    background-color:#21252c84;
+}
+
+
+.Link div{
+    transition:all 100ms ease-in-out;
+    height:80%;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    border:1px solid rgba(255, 255, 255, 0.397);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+    transition:all 100ms ease-in-out;
+}
+.Link a{
+    display:block;
+    transition:all 100ms ease-in-out;
+}
+.Link svg{
+    width:90%;
+    height:90%;
+    transition:all 100ms ease-in-out;
+}
+
+.Link:hover div{
+    border:2px solid var(--button-color);
+}
+
+.Link:hover div svg{
+    fill:var(--button-color);
+}
+
+.Link:hover a{
+    color:var(--button-color);
+    display:block;
+}
+
+@media (min-width:320px){
+    .Link{
+       width:fit-content; 
+    }
+    .Link a{
+        display:none;
+    }
+}

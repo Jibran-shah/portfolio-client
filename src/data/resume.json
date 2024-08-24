@@ -1,0 +1,52 @@
+{
+    "sections":[
+        {
+            "heading":"Experience",
+            "items":
+            [
+                {
+                    "heading":"Senior UX/UI Designer",
+                    "from":"Bergnaum, Hills and Howe",
+                    "date":"Jan 2020 - Present",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                },
+                {
+                    "heading":"Senior UX/UI Designer",
+                    "from":"Bergnaum, Hills and Howe",
+                    "date":"Jan 2020 - Present",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                },
+                {
+                    "heading":"Senior UX/UI Designer",
+                    "from":"Bergnaum, Hills and Howe",
+                    "date":"Jan 2020 - Present",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                }
+            ]
+        }
+        ,{
+            "heading":"Education",
+            "items":
+            [
+                {
+                    "heading":"Master of Computer Science",
+                    "from":"University of XYZ",
+                    "date":"2015 - 2016",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                },
+                {
+                    "heading":"Master of Computer Science",
+                    "from":"University of XYZ",
+                    "date":"2015 - 2016",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                },{
+                    "heading":"Master of Computer Science",
+                    "from":"University of XYZ",
+                    "date":"2015 - 2016",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+                }
+            ]
+
+        }
+    ]
+}

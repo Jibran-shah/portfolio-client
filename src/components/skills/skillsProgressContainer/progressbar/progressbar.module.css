@@ -1,0 +1,36 @@
+.Container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.PogressContainer{
+    height:2px;
+    width:100%;
+    background-color:rgba(255, 245, 245, 0.306);
+    border-radius:100px;
+    margin-top:5px;
+}
+
+.Progress{
+    height:100%;
+    background-color:var(--button-color);
+    border-radius:100px;
+}
+
+.Heading{
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+}
+
+.Heading h2{
+    font-size:1rem;
+}
+
+
+@media(min-width:320px){
+    .Heading h2{
+        font-size:1.5rem;
+    }
+}

@@ -1,0 +1,51 @@
+.SingleContactInfo{
+    max-width:100%;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    margin:0.5rem 0;
+}
+
+.LogoContainer{
+    height:40px;
+    aspect-ratio:1/1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid rgba(255, 255, 255, 0.642);
+    border-radius:50%;
+    padding:10px;
+    cursor:pointer;
+}
+
+.LogoContainer:hover{
+    border:2px solid var(--button-color);
+}
+.Logo{
+    display:block;
+    width:100%;
+    height:100%;
+    fill:#fdfeffb1;
+}
+
+.Info{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.Info h1{
+    overflow-wrap:break-word;
+    margin:0px;
+}
+.Info p{
+    margin-top:2px;
+    line-height:1em;
+    font-size:1em;
+    overflow-wrap:break-word;
+}
+
+@media screen and (max-width:275px){
+    .LogoContainer{
+        display:none;
+    }
+}

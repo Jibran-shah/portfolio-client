@@ -1,0 +1,35 @@
+.TextContainer{
+    display:flex;
+    flex-direction:column;
+    text-align:start;
+    flex-grow:1;
+    background-color:#21252c;
+    padding:0.5em;
+    padding-bottom:1em;
+}
+
+.Header{
+    font-size:2rem;
+    padding:1rem 1rem;
+}
+
+.ItemsContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:30px;
+    position:relative;
+    padding:0 16px;
+}
+
+.ItemsContainer::before{
+    content:"";
+    height:97%;
+    position:absolute;
+    left:0;
+    top:15px;
+    width:2px;
+    background-color:rgb(91, 91, 91);
+}
+
+

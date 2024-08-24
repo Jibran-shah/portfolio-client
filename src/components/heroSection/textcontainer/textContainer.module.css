@@ -1,0 +1,46 @@
+.TextContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    text-align:start;
+    height:100%;
+    width:100%;
+    margin-top:5rem;
+}
+
+@media screen and (min-width:1024px){
+    .TextContainer{
+        width:45%;
+    }
+}
+
+.FirstChild{
+    color:var(--button-color);
+    font-size: 1.8rem;
+    margin:0px;
+    font-weight: 300;
+}
+
+
+.TextContainer h1{
+    font-size:3rem;
+    margin-bottom: 24px;
+    font-weight: 900;
+    line-height: 1em;
+    word-break:break-word;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .TextContainer h1{
+        font-size: 5.5rem;
+    }
+}
+
+.TextContainer p{
+    font-size: 2.25rem;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color:#fdfeffb1;
+}

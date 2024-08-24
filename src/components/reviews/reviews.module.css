@@ -1,0 +1,15 @@
+.Reviews{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    margin-bottom:25px;
+}
+
+@media (max-width:768px){
+    .Reviews{
+        flex-direction:column;
+    }
+}

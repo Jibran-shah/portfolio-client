@@ -1,0 +1,35 @@
+.Header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+    word-break:break-word;
+    position:relative;
+    padding-bottom:0.5em;
+}
+
+.Header h1{
+    color:var(--button-color);
+    font-size:2rem;
+}
+
+.Header::before{
+    display:block;
+    content:"";
+    background-color:#464b52;
+    width:150%;
+    height:4px;
+    position:absolute;
+    bottom:0;
+    border-radius:10px;
+}
+
+.Header::after{
+    display:block;
+    content:"";
+    background-color:var(--button-color);
+    width:50%;
+    height:4px;
+    position:absolute;
+    bottom:0;
+}

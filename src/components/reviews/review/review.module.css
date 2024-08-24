@@ -1,0 +1,72 @@
+.Review{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:25px;
+    align-items:center;
+    height:100%;
+    width:30%;
+    max-width:500px;
+    flex-shrink:0;
+    padding:1em 0.5em;
+}
+
+.Quote{
+    background-color:#21252c;
+    font-size:0.8rem;
+    width:100%;
+    max-height:5.6em;
+    line-height:1.1em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+.QuoteContainer{
+    border:1px solid rgb(138, 138, 138);
+    border-radius:2px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px;
+    text-align:center;
+    font-weight:bold;
+    color:#fdfeffb1;
+    width:100%;
+    max-height:50%;
+    background-color:#21252c;
+}
+.QuoteContainer::after{
+    display:block;
+    content:"";
+    width:30px;
+    height:30px;
+    position:absolute;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    border-right:1px solid rgb(138, 138, 138);
+    bottom:-15px;
+    background-color:#21252c;
+    transform:rotate(45deg);
+}
+
+.QuoteContainer:hover::after {
+    border-bottom:1px solid var(--button-color);
+    border-right: 1px solid var(--button-color);
+}
+
+.QuoteContainer:hover {
+    border:1px solid var(--button-color);
+}
+
+
+.QuoteContainer:hover  p{
+    color:var(--button-color);
+}
+
+@media screen and (max-width:768px){
+    .Review{
+        width:100%;
+    }
+} 
+

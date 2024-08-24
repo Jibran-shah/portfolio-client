@@ -1,0 +1,71 @@
+.BlogsHeroSection{
+    height:80vh;
+    width:100%;
+    background-color:#0a101e;
+    position:relative;
+    z-index:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.BlogsHeroSection img{
+    height:100vh;
+    width:100vw;
+    position:fixed;
+    opacity: 0.6;
+    display:block;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+.Heading{
+    margin:0px;
+    line-height:1.2;
+    font-size:1rem;
+    color:var(--button-color);
+    max-width:45ch;
+}
+
+.Paragraph{
+    max-width:80ch;
+    font-size:0.6rem;
+}
+
+@media (min-width:320px){
+    .Heading{
+        font-size:1.2rem;
+    }
+    .Paragraph{
+        font-size:0.7rem;
+    }
+}
+
+@media (min-width:375px){
+    .Heading{
+        font-size:1.3rem;
+    }
+    .Paragraph{
+        font-size:0.8rem;
+    }
+}
+
+
+@media (min-width:425px){
+    .Heading{
+        font-size:1.8rem;
+    }
+    .Paragraph{
+        font-size:0.8rem;
+    }
+}
+
+@media (min-width:768px){
+    .Heading{
+        font-size:2rem;
+    }
+    .Paragraph{
+        font-size:1rem;
+    }
+}

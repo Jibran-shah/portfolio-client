@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Richard Miles",
+        "profession":"Chairman",
+        "imgSrc":"/images/client1.png"
+    },
+    {
+        "name":"Joseph Alves",
+        "profession":"Managing Director",
+        "imgSrc":"/images/client3.png"
+    }, {
+        "name":"Vesta Shufelt",
+        "profession":"Executive Director",
+        "imgSrc":"/images/client2.png"
+    }
+]

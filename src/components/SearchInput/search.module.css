@@ -1,0 +1,54 @@
+.Search{
+    background-color:rgba(0, 0, 0, 0.493);
+    border:none;
+    display:block;
+    padding:0.5em 1em;
+    padding-right:2em;
+    border-radius:5px;
+    font-size:0.9rem;
+    color:rgb(255, 255, 255);
+    font-weight:lighter;
+    letter-spacing:1px;
+    outline:none;
+    height:3em;
+    width:100%;
+}
+
+.Search::-webkit-search-cancel-button {
+    -webkit-appearance: none; /* Removes the cross button */
+    appearance: none; /* For modern browsers */
+}
+
+.Search::-moz-search-clear {
+    display: none; /* Removes the clear button in Firefox */
+}
+
+.Search:hover{
+    box-shadow:0 2px 3px 2px #fec6447d;
+}
+.Search:focus{
+    box-shadow:0 1px 2px 1px #fec6447d;
+}
+
+.Search::before{
+    content:"";
+    display:none;
+}
+.SearchContainer{
+    display:flex;
+    gap:12px;
+    position:relative;
+    align-items:center;
+}
+
+.SearchLogo{
+    position:absolute;
+    right:5%;
+    height:15px;
+    display:block;
+}
+
+
+.SearchContainer:hover .SearchLogo{
+ fill:var(--button-color);
+}

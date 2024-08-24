@@ -1,0 +1,38 @@
+.Link{
+    height:90%;
+    color:rgba(135, 135, 135, 0.829);
+    border-radius:500px;
+    display:flex;
+    align-items:center;
+    padding:5px;
+    transition:all 100ms ease-in-out;
+}
+
+.Link div{
+    padding:4px;
+    height:100%;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Link a{
+    word-break:keep-all;
+    display:none;
+    transition:all 50ms ease-in-out;
+    margin:0 0.5em;
+    color:rgb(200, 200, 200);
+}
+
+.Link:hover{
+    border:2px solid var(--button-color);
+}
+
+.Link:hover div svg{
+    fill:var(--button-color);
+}
+
+.Link:hover a{
+    display:block;
+}

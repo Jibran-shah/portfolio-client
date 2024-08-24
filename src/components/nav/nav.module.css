@@ -1,0 +1,103 @@
+.NavOuter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    height:80px;
+    flex-wrap:wrap;
+    position:relative;
+    background-color:#21252c;
+}
+
+.Nav{
+    text-wrap:nowrap;
+    display:none;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.Nav a:hover{
+    color:var(--button-color);
+}
+
+.Nav a{
+    display:flex;
+    color:inherit;
+    text-decoration:none;
+    height:fit-content;
+}
+
+.Logo{
+    display:flex;
+    justify-content:center;
+    max-width:50%;
+    max-height:40%;
+    align-items:center;
+}
+.Logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.MenuButton{
+    display:flex;
+    color: #666;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    min-height:40%;
+    aspect-ratio:1/1;
+}
+@media (min-width:320px){
+    .MenuButton{
+        min-height:60%;
+    }
+}
+
+.MenuLogo{
+    min-height:100%;  
+    min-width:100%;
+}
+
+.PhoneNumberContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+}
+
+.PhoneLogo{
+    display:block;
+    height:25px;
+    position:relative;
+    bottom:-2px;
+}
+
+p{
+    margin:0px;
+    padding:0px;
+}
+
+
+/* Default: Extra-small devices such as small phones (less than 640px) */
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+    .Nav{
+        display:flex;
+        gap:10px;
+        font-size:0.85rem;
+    }
+    .MenuButton{
+        display:none;
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+    .Nav{
+        gap:20px;
+        font-size:1rem;
+    }
+}

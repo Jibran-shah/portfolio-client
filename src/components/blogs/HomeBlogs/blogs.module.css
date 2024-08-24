@@ -1,0 +1,20 @@
+.BlogsContainer{
+    display:flex;
+    align-items:center;
+    width:100%;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+@media screen and (max-width:768px){
+    .BlogsContainer{
+        flex-direction:column;
+        gap:50px;
+    }
+}
+
+.LinkButton a{
+    text-decoration:none;
+    color:inherit;
+}
+

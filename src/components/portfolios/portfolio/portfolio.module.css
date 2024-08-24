@@ -1,0 +1,69 @@
+.PortfolioContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-width:180px;
+    max-width:550px;
+    position:relative;
+    border:none;
+    flex:1 1 30%;
+    z-index:1;
+    aspect-ratio:1/1;
+}
+
+.PortfolioAttributes{
+    display:grid;
+    place-items:center;
+    background-color:#21252c6f;
+    padding:0.5em;
+    box-sizing:border-box;
+    border-radius:8px;
+    text-align:center;
+}
+
+@media (max-width:200px){
+    .PortfolioContainer{
+        min-width:100%;
+    }
+    .PortfolioContainer h1{
+        font-size:0.5rem;
+    }
+    .PortfolioContainer p{
+        font-size:0.3rem;
+    }
+    .AddButton{
+        width:20px;
+        height:20px;
+    }
+}
+
+.PortfolioContainer h1{
+    display:none;
+    font-size:1.5rem;
+    line-height:1.1;
+    text-transform:capitalize;
+}
+
+.PortfolioContainer p{
+    font-size:1rem;
+    display:none;
+    line-height:1.1;
+}
+
+.AddButton{
+    height:50px;
+    width:50px;
+    display:none;
+    margin-bottom:12px;
+}
+
+.PortfolioContainer img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}

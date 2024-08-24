@@ -1,0 +1,15 @@
+.ContactContainer{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    gap:30px;
+    background-color:#21252c90;
+    padding:1em 1em;
+    justify-content:space-between;
+}
+
+@media only screen and (min-width: 768px) {
+    .ContactContainer{
+        flex-direction:row;
+    }
+}
